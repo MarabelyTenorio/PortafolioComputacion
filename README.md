@@ -11,5 +11,4 @@ Imagenes usadas en el portafolio.
 ![telseri](https://user-images.githubusercontent.com/84696500/142780391-64b49db1-7f14-4fd6-96cc-9d096d74a246.jpg)
 
 
-![Alt text](./css3.svg)
 <img src="./css3.svg">
