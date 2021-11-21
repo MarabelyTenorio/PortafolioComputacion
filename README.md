@@ -1,2 +1,2 @@
-# PortafolioComputacion
-Es el cv puesto en formato web
+# Portafolio
+ Mi propio  portafolio
