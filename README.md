@@ -12,3 +12,21 @@ Imagenes usadas en el portafolio.
 
 
 <img src="./css3.svg">
+<img src="./android.svg">
+<img src="./correoelectronico.svg">
+<img src="./facebook.svg">
+<img src="./figma.svg">
+<img src="./firebase.svg">
+<img src="./git.svg">
+<img src="./github.svg">
+<img src="./html.svg">
+<img src="./css3.svg">
+
+<img src="./java.svg">
+<img src="./mysql.svg">
+<img src="./python.svg">
+<img src="./sql.svg">
+
+<img src="./telegram.svg">
+<img src="./whatsapp.svg">
+
