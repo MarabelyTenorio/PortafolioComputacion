@@ -75,7 +75,7 @@ position: absolute;
     }
     
     .lineaR {
-        flex:2;
+        flex:1;
         border-top: 2px solid #F75A4D;
         height: 1px;
         padding: 10px;
