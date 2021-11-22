@@ -24,7 +24,7 @@
 }*/
     
     #cabeza {
-        float: left;
+        flex-float: column;
         padding: 30px;
         color: rgb(8, 8, 8);
         font-family: 'Oswald', sans-serif;
@@ -75,7 +75,7 @@ position: absolute;
     }
     
     .lineaR {
-        flex:1;
+        flex:2;
         border-top: 2px solid #F75A4D;
         height: 1px;
         padding: 10px;
