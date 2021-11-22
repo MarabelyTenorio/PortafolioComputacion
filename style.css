@@ -152,7 +152,6 @@ position: absolute;
 }*/
     
     .wrapper {
-        flex:3;
         display: flex;
         justify-content: center;
     }
