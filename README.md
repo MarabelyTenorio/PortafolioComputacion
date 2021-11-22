@@ -11,22 +11,6 @@ Imagenes usadas en el portafolio.
 ![telseri](https://user-images.githubusercontent.com/84696500/142780391-64b49db1-7f14-4fd6-96cc-9d096d74a246.jpg)
 
 
-<img src="./css3.svg">
-<img src="./android.svg">
-<img src="./correoelectronico.svg">
-<img src="./facebook.svg">
-<img src="./figma.svg">
-<img src="./firebase.svg">
-<img src="./git.svg">
-<img src="./github.svg">
-<img src="./html.svg">
-<img src="./css3.svg">
-
-<img src="./java.svg">
-<img src="./mysql.svg">
-<img src="./python.svg">
-<img src="./sql.svg">
-
 <img src="./telegram.svg">
 <img src="./whatsapp.svg">
 
