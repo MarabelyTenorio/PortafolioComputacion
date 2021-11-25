@@ -232,6 +232,7 @@ position: absolute;
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin: 2%;
+        /*  flex-wrap: wrap;*/
     }
     
     .card {
