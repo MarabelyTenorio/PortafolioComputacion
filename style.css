@@ -1,227 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Poppins:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Bebas+Neue&family=Edu+QLD+Beginner:wght@400;700&display=swap');
 html {
     scroll-behavior: smooth;
-}
-
-* {
-    box-sizing: border-box;
-    font-family: 'Hind Vadodara', sans-serif;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+    font-family: 'Edu QLD Beginner', cursive;
 }
 
 body {
-    background: #ffffff;
-    /*font-family: 'Hind Vadodara', sans-serif;*/
+    box-sizing: border-box;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-areas: "header" "imagen" "footer ";
-}
-
-.parte1 {
-    grid-area: header;
-}
-
-.parte2 {
-    grid-area: imagen;
-    display: block;
-    margin: auto;
-}
-
-.parte3 {
-    grid-area: footer;
-}
-
-@media (min-width: 1000px) {
-    .grid-container {
-        grid-template-areas: "header imagen" "footer footer";
-    }
-}
-
-#itemlist {
-    padding-top: 50px;
-    padding-left: 30%;
-    padding-right: 30%;
-    text-align: justify;
+*,
+::before,
+::after {
+    box-sizing: inherit;
 }
 
 
-/*
-.InfoInicial {
-    float: left;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    margin-top: 200px;
-    margin-left: 100px;
+/*HEADER ITEM*/
+
+.header-item {
+    background: #2C5364;
+    padding: 2px;
+}
+
+.header-item li {
+    list-style: none;
     display: inline-block;
-}*/
-
-
-/*util
-    #itemlist {
-        padding-top: 50px;
-        padding-right: 50%;
-        padding-left: 10%;
-    }
-    
-    
-    #cabeza {
-        padding-right: 10%;
-        color: rgb(8, 8, 8);
-        font-family: 'Oswald', sans-serif;
-        text-align: justify;
-        display: inline-block;
-        margin-left: 100px;
-    }
-
-    */
-
-h1 {
-    font-family: 'Oswald', sans-serif;
 }
 
-h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
+.header-item li a {
+    text-decoration: none;
+    color: #d4ccd1;
+}
+
+.header-item li+li::before {
+    content: " | ";
+    padding: 0 10px;
+    justify-content: right;
+    color: #d4ccd1;
+}
+
+.header-item li a.active,
+.header-item li a:hover {
+    background: #2C5364;
+    color: #FDC830;
+    transition: .5s;
+    font-family: 'Edu QLD Beginner', cursive;
 }
 
 
-/*
-position: absolute;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
-    justify-content: center;
-*/
+/* NAVIGATION BOTTOM BAR*/
+
+nav {
+    height: 50px;
+    width: 100%;
+    /*  background: linear-gradient(to right bottom, #ad5389, #3c1053);*/
+    background-color: white;
+}
+
+nav ul {
+    float: right;
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #0F2027;
+    font-size: x-large;
+    padding: 7px 7px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+li a.active,
+li a:hover {
+    background: #d4ccd1;
+    color: #2C5364;
+    transition: .5s;
+}
 
 section {
-    background: #ffffff;
-    /*   min-height: 100vh;*/
-    overflow: hidden;
-    /*   max-height: 700px;*/
+    background: #2C5364;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 
-.linea {
-    border-top: 2px solid #F75A4D;
-    height: 1px;
-    max-width: 200px;
-    padding: 0;
-    margin: 0px auto 0 auto;
-    text-align: center;
-}
-
-.lineaR {
-    flex: 1;
-    border-top: 2px solid #F75A4D;
-    height: 1px;
-    padding: 10px;
-    max-width: 130px;
-    text-align: right;
+#section4 {
+    min-height: fit-content;
 }
 
 section:nth-child(odd) {
-    background: #51c4c4;
-    padding: 20px;
+    background-color: white;
 }
 
 section::before {
     content: attr(data-text);
-    color: #010303;
+    color: black;
     font-size: 8em;
 }
 
-header ul {
+
+/*SECTION 1*/
+
+.Images {
     float: right;
-    list-style: none;
-    height: 50px;
-    position: relative;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    letter-spacing: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    width: 50%;
 }
 
-header ul li a {
-    position: relative;
-    margin: 0 15px;
-    text-decoration: none;
-    color: #000000;
-    letter-spacing: 2px;
-    font-size: 24px;
-    font-family: 'Oswald', sans-serif;
+.name-item {
+    margin: 10%;
 }
 
-.topnav-right {
-    float: right;
+#Review {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: xx-large;
+    font-weight: bolder;
 }
-
-.topnav {
-    background: #F75A4D;
-    overflow: hidden;
-}
-
-
-/*borrar div#bannerimg {
-        position: relative;
-        background-image: url(/Portafolio/womanworking.png);
-        background-size: cover;
-        height: 80%;
-        width: 80%;
-        justify-content: center;
-        overflow: hidden;
-        object-fit: cover;
-        object-position: center center;
-        /**/
-
-*/ div#a {
-    font-size: 3em;
-}
-
-
-/*
-.card {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 520px;
-    font-size: 20px;
-    padding: 10px;
-    font-style: normal;
-}*/
 
 .wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.wrapper .static-txt {
-    color: rgb(54, 51, 51);
-    font-size: 60px;
-    font-weight: 400;
+    float: left;
+    width: 50%;
 }
 
 .wrapper .dynamic-txts {
-    margin-left: 15px;
-    height: 90px;
-    line-height: 90px;
+    height: 50px;
+    line-height: 50px;
     overflow: hidden;
 }
 
 .dynamic-txts li {
     list-style: none;
-    color: #6dc8fc;
-    font-size: 60px;
+    color: #2C5364;
+    font-size: 30px;
     font-weight: 500;
     position: relative;
     top: 0;
@@ -230,14 +148,13 @@ header ul li a {
 
 @keyframes slide {
     100% {
-        top: -360px;
+        top: -200px;
     }
 }
 
 .dynamic-txts li span {
     position: relative;
-    margin: 5px 0;
-    line-height: 90px;
+    line-height: 50px;
 }
 
 .dynamic-txts li span::after {
@@ -246,9 +163,9 @@ header ul li a {
     left: 0;
     height: 100%;
     width: 100%;
-    line-height: 90px;
-    background: #ffffff;
-    border-left: 2px solid #6dc8fc;
+    line-height: 50px;
+    background: white;
+    border-left: 2px solid #2C5364;
     animation: typing 3s steps(10) infinite;
 }
 
@@ -263,23 +180,58 @@ header ul li a {
 }
 
 
-/*Card box habilidades*/
+/*TOOLS*/
+
+h1 {
+    text-align: center;
+    color: #d4ccd1;
+    margin: 10px;
+}
+
+.colordark h1 {
+    text-align: center;
+    color: #2C5364;
+    margin: 10px;
+}
+
+.lineBlackBackground {
+    border-top: 2px solid #d4ccd1;
+    height: 1px;
+    max-width: 250px;
+    padding: 0;
+    margin: 0px auto 0 auto;
+    text-align: center;
+}
+
+.lineWhiteBackground {
+    border-top: 2px solid #2C5364;
+    height: 1px;
+    max-width: 250px;
+    padding: 0;
+    margin: 0px auto 0 auto;
+    text-align: center;
+}
 
 .container {
     display: flex;
-    width: 1040px;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 2%;
-    /*  flex-wrap: wrap;*/
+    width: 100vh;
+    justify-content: space-evenly;
+    margin: 20px;
 }
 
-.card {
-    margin: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+.container .card {
+    width: 150px;
+    height: 100;
     overflow: hidden;
-    width: 200px;
+    box-shadow: 0 2px 5px #91908d;
+    padding: 10px;
+    margin: 2%;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .card-header img {
@@ -296,32 +248,67 @@ header ul li a {
 .card-body {
     color: black;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }
 
-.item {
-    float: right;
+
+/*PROYECTOS*/
+
+.container .item {
+    width: 300px;
+    height: 430px;
     overflow: hidden;
-    margin: 2px;
-    width: 75px;
+    box-shadow: 0 2px 5px #91908d;
+    padding: 10px;
+    margin: 2%;
 }
 
-#contenedor {
-    width: 500px;
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.project .card-project {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px #91908d;
+    padding: 10px;
+    margin: 2%;
+}
+
+.card-project:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    background: white;
+}
+
+#titlecard {
+    padding-top: 40px;
+    text-align: left;
+}
+
+.contenedor {
+    overflow: hidden;
+}
+
+#contentcardproject {
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: justify;
 }
 
 .tag {
-    background-color: #F75A4D;
-    border-radius: 50px;
-    padding: 1%;
-    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
     color: white;
     font-size: 14px;
     float: left;
-    padding-left: 4px;
 }
 
 .tag-orange {
-    margin-left: 20px;
     background-color: orange;
 }
 
@@ -330,13 +317,18 @@ header ul li a {
     background-color: red;
 }
 
+.tag-purple {
+    margin-left: 20px;
+    background-color: rgb(133, 36, 136);
+}
+
 #listandoLenguajes {
     list-style-type: none;
 }
 
 .card.tarjeta {
     border-color: rgb(255, 0, 0);
-    width: 500px;
+    width: 300px;
     border-radius: 10%;
     box-shadow: none;
 }
@@ -346,4 +338,111 @@ header ul li a {
     border-radius: 10%;
     box-shadow: none;
     box-sizing: border-box;
+}
+
+
+/*BUTTONS*/
+
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: baseline;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+    outline: 0;
+}
+
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-64:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .button-64 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+
+/*SECTION 4 FOOTER*/
+
+.container-contact {
+    width: 100vh;
+    display: flex;
+}
+
+.container .element {
+    width: 128px;
+    height: 128px;
+    box-shadow: 0 0 0 transparent;
+}
+
+.element:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+footer {
+    background: #0F2027;
+    color: #d4ccd1;
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    vertical-align: middle;
+}
+
+
+/*SCREEN <800*/
+
+@media (max-width:800px) {
+    .Images {
+        width: 100%;
+    }
+    .item {
+        width: 100%;
+    }
+    section {
+        width: 100vh;
+    }
+    #section1 {
+        height: 1000px;
+    }
+    #section2 .container .card {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100px;
+        height: 90;
+        overflow: hidden;
+        box-shadow: 0 2px 5px #91908d;
+        padding: 5px;
+        margin: 1%;
+    }
 }
