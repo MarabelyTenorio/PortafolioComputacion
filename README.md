@@ -1,5 +1,4 @@
 # Portafolio
  Mi propio  portafolio
 
-Imagenes usadas en el portafolio. 
-
+Enlace al portafolio >> http://devbackmobile.me/PortafolioComputacion/
