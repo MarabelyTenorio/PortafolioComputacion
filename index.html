@@ -3,78 +3,69 @@
 
 <head>
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/master/animal.ico">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-
 </head>
 
 <body>
 
-    <header id="encabezado">
-        <div class="topnav">
-            <div class="topnav-right">
-                <ul>
-                    <li><a href="#sec1">Inicio</a></li>
-                    <li><a href="#sec2">Habilidades</a></li>
-                    <li><a href="#sec3">Proyectos</a></li>
-                    <li><a href="#sec4">Contacto</a></li>
+    <header class="header-item">
+        <ul>
+            <li>
+                <a href="https://drive.google.com/file/d/1u2lJwx3OoqfgkTIp_dtKlPtiIM8XSHOX/view?usp=sharing" target="_blank">Curriculum</a>
+            </li>
+            <li>
+                <a href="https://t.me/Ing_Marabely" title="Ir a telegram" target="blank">Enviar mensaje</a>
+            </li>
+        </ul>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#section1">Inicio</a>
+            </li>
+            <li>
+                <a href="#section2">Herramientas</a>
+            </li>
+            <li>
+                <a href="#section3">Proyectos</a>
+            </li>
+            <li>
+                <a href="#section4">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <div class="wrapper">
+
+            <div class="name-item">
+                <P id="Review">
+                    Saludos, mi nombre es
+                    <br> Marabely Alvarado
+                </P>
+                <ul class="dynamic-txts">
+                    <li><span>Dev Android</span></li>
+                    <li><span>Dev BackEnd</span></li>
+                    <li><span>Admon Database</span></li>
                 </ul>
             </div>
         </div>
-    </header>
-
-    <section id="sec1">
-
-        <div class="grid-container">
-
-
-            <div class="parte1">
-                <div id="itemlist">
-                    <h1>Sobre mí</h1>
-                    <div class="lineaR"></div>
-
-                    <p>Soy una estudiante de 4to año de la carrera de Ingeniería en computación.
-                    </p>
-
-                    <p>
-                        Me encanta el desarrollo de <strong>aplicaciones móviles</strong>, hasta ahora he desarrollado dos aplicaciones móviles una para dispotivos Android y otra para dispositivos Huawei.
-                    </p>
-                    <p>
-                        Actualmente, estoy aprendiendo programación web con html y css básico. El lenguaje de programación que más domino es Java y estoy aprendiendo el lenguaje de Python. Adjunto mi
-                        <a href="https://drive.google.com/file/d/1pPCBWrIYHBMeA6CTKescZWzY29108S7P/view?usp=sharing" target="_blank">curriculum</a>.
-                    </p>
-                </div>
-            </div>
-
-            <div class="parte2">
-                <img src="https://user-images.githubusercontent.com/84696500/142780154-0ace920d-1d15-458a-8fd8-af9013007ebd.png">
-
-            </div>
-
-            <div class="parte3">
-                <div class="wrapper">
-                    <div class="static-txt">Marabely Alvarado .... </div>
-                    <ul class="dynamic-txts">
-                        <li><span>Ingeniera</span></li>
-                        <li><span>Dev Android</span></li>
-                        <li><span>FullStack Jr</span></li>
-                    </ul>
-                </div>
-            </div>
-
-
+        <div class="Images">
+            <img src="https://user-images.githubusercontent.com/84696500/142780154-0ace920d-1d15-458a-8fd8-af9013007ebd.png" alt="Always working!">
         </div>
     </section>
 
-    <section id="sec2">
-        <h1 style="text-align: center;">Habilidades</h1>
-        <div class="linea"></div>
+    <section id="section2">
+
+        <h1>Herramientas</h1>
+        <div class="lineBlackBackground"></div>
 
         <div class="container">
-
-            <div class="card hability">
+            <div class="card tool-1">
                 <div class="card-header">
                     <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/0177f342168b588eaa625f593e699b527d207a43/css3.svg" alt="rover">
                 </div>
@@ -82,7 +73,7 @@
                     <h5><strong>CSS</strong></h5>
                 </div>
             </div>
-            <div class="card hability">
+            <div class="card tool-2">
                 <div class="card-header">
                     <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/html.svg" alt="rover">
                 </div>
@@ -90,7 +81,7 @@
                     <h5><strong>Html</strong></h5>
                 </div>
             </div>
-            <div class="card hability">
+            <div class="card tool-3">
                 <div class="card-header">
                     <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/git.svg" alt="rover">
                 </div>
@@ -98,7 +89,8 @@
                     <h5><strong>Git</strong></h5>
                 </div>
             </div>
-            <div class="card hability">
+
+            <div class="card tool-5">
                 <div class="card-header">
                     <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/github.svg" alt="rover">
                 </div>
@@ -106,7 +98,7 @@
                     <h5><strong>Github</strong></h5>
                 </div>
             </div>
-            <div class="card hability">
+            <div class="card tool-6">
                 <div class="card-header">
                     <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/java.svg" alt="rover">
                 </div>
@@ -114,7 +106,7 @@
                     <h5><strong>Java</strong></h5>
                 </div>
             </div>
-            <div class="card hability">
+            <div class="card tool-7">
                 <div class="card-header">
                     <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/sql.svg" alt="rover">
                 </div>
@@ -122,9 +114,7 @@
                     <h5><strong>SQL</strong></h5>
                 </div>
             </div>
-
-
-            <div class="card hability">
+            <div class="card tool-8">
                 <div class="card-header">
                     <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/firebase.svg" alt="rover">
                 </div>
@@ -132,110 +122,151 @@
                     <h5><strong>Firebase</strong></h5>
                 </div>
             </div>
-
-
-            <div class="card hability">
+            <div class="card tool-9">
                 <div class="card-header">
-                    <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/android.svg" alt="rover">
+                    <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/e3254e72c5b3761df5b25c425608ce57979551b1/figma.svg" alt="rover">
                 </div>
                 <div class="card-body">
-                    <h5><strong>Apps</strong></h5>
+                    <h5><strong>Figma</strong></h5>
+                </div>
+            </div>
+            <div class="card tool-10">
+                <div class="card-header">
+                    <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/e3254e72c5b3761df5b25c425608ce57979551b1/csharp.svg" alt="rover">
+                </div>
+                <div class="card-body">
+                    <h5><strong>C#</strong></h5>
+                </div>
+            </div>
+            <div class="card tool-11">
+                <div class="card-header">
+                    <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/537ac9bce8fd37fb20e0c0872fbf4bfb3ab6b96a/js.svg" alt="rover">
+                </div>
+                <div class="card-body">
+                    <h5><strong>Javascript</strong></h5>
                 </div>
             </div>
 
         </div>
-        =
+
     </section>
 
-
-    <section id="sec3">
-        <h1 style="text-align: center; padding-top: 20px;">Proyectos</h1>
-        <div class="linea"></div>
+    <section id="section3">
+        <div class="colordark">
+            <h1>Proyectos</h1>
+            <div class="lineWhiteBackground"></div>
+        </div>
 
         <div class="container">
-            <div class="card tarjeta">
+
+            <div class="card item project-1">
                 <div class="card-header">
-                    <img src="https://user-images.githubusercontent.com/84696500/142780391-64b49db1-7f14-4fd6-96cc-9d096d74a246.jpg" alt="rover">
+                    <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/master/teconecto_logo.png" alt="Imagenes">
                 </div>
                 <div class="card-body">
-
-                    <ul id="listandoLenguajes">
-                        <li> <span class="tag tag-orange"><strong>Firebase </a></span> </li>
-                        <li>
-                            <span class="tag tag-red"><strong>Java</a></span>
-                        </li>
-                    </ul>
-
-                    <div style="padding-top: 30px; text-align: justify;">
-                        <h4>Telseri</h4>
-                        <p>
-                            Aplicación móvil para dispositivos Android, todas tus empresas de servicios de redes en un solo lugar. Equipo de trabajo: Yubelki y Marabely.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card tarjeta">
-                <div class="card-header">
-                    <img id="imgApp1" src="https://user-images.githubusercontent.com/84696500/142780387-7e4a7342-2429-4de2-ab1b-dea101d68c40.jpg" alt="rover">
-                </div>
-                <div class="card-body">
-
                     <ul id="listandoLenguajes">
                         <li>
                             <span class="tag tag-red"><span>Java</a></span>
                         </li>
                     </ul>
-
-                    <div style="padding-top: 30px; text-align: justify;">
-                        <h4>TeConecto</h4>
-                        <p>
-                            Aplicación móvil para dispositivos Huawei registrada para la competencia Huawei Apps Up 2021. Integrantes del equipo <b> pinoleros</b>: Danny, Yubelki y Marabely.
-                            <a href="https://appgallery.huawei.com/#/app/C104702161" target="blank">Enlace</a>
-
-                        </p>
-                    </div>
+                    <h4 id="titlecard">TeConecto</h4>
+                    <p id="contentcardproject">
+                        Aplicación móvil para dispositivos Huawei registrada para la competencia Huawei Apps Up 2021. <b>Integrantes del equipo pinoleros</b>: Danny, Yubelki y Marabely.
+                        <a href="https://appgallery.huawei.com/#/app/C104702161" target="blank">Enlace</a>
+                    </p>
                 </div>
             </div>
+
+            <div class="card item project-2">
+                <div class="card-header">
+                    <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/master/ic_telseri.png" alt="Imagenes">
+                </div>
+                <div class="card-body">
+                    <ul id="listandoLenguajes">
+                        <li>
+                            <span class="tag tag-orange"><strong>FIREBASE</strong></span>
+                        </li>
+                        <li>
+                            <span class="tag tag-red">
+                                <strong>JAVA</strong>
+                            </span>
+                        </li>
+                    </ul>
+                    <h4 id="titlecard">TELSERI</h4>
+                    <p id="contentcardproject">
+                        Aplicación móvil para dispositivos Android, todas tus empresas de servicios de redes en un solo lugar. <b>Equipo de trabajo:</b> Yubelki y Marabely.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="card item project-3">
+                <div class="card-header">
+                    <img src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/master/HORE.ico" alt="Imagenes">
+                </div>
+                <div class="card-body">
+                    <ul id="listandoLenguajes">
+                        <li>
+                            <span class="tag tag-purple"><span>SQL</a></span>
+                        </li>
+                        <li>
+                            <span class="tag tag-purple"><span>C#</a></span>
+                        </li>
+                    </ul>
+                    <h4 id="titlecard">HORE</h4>
+                    <p id="contentcardproject">
+                        Aplicación de escritorio realizada para el control de reservaciones de un hotel. <b>Integrante:</b> Marabely.
+                     </p>
+                </div>
+                </p>
+            </div>
+
         </div>
 
+        </div>
+
+
+
+
     </section>
 
-    <section id="sec4">
+    <section id="section4">
 
-        <footer style="background-color: #51c4c4;">
+        <h1>Contacto</h1>
+        <div class="lineBlackBackground"></div>
 
-            <h1 style="text-align: center;">Contacto</h1>
-            <div class="linea"></div>
-            <div class="container">
-                <div class="item" id="item1">
-                    <a href="https://t.me/Ing_Marabely" title="Ir a telegram" target="blank">
-                        <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/telegram.svg" class="rounded-circle" alt="telegram">
-                    </a>
-                </div>
-
-                <div class="item" id="item2">
-                    <a href="https://api.whatsapp.com/send?phone=83504018" target="blank">
-                        <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/whatsapp.svg" class="rounded-circle" alt="...">
-                    </a>
-                </div>
-
-                <div class="item" id="item3">
-                    <a href="mailto:marabelytenorio@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail" target="blank">
-                        <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/5558017a9e629b41437b7815bc573d99540579ae/correoelectronico.svg" class="rounded-circle" alt="...">
-                    </a>
-                </div>
-
-                <div class="item" id="item4">
-                    <a href="https://github.com/MarabelyTenorio" title="Ir a github" target="blank">
-                        <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/github.svg" class="rounded-circle" alt="...">
-                    </a>
-                </div>
-
+        <div class="container">
+            <div class="element item-1">
+                <a href="https://t.me/Ing_Marabely" title="Ir a telegram" target="blank">
+                    <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/telegram.svg" class="rounded-circle" alt="telegram">
+                </a>
             </div>
-        </footer>
 
+            <div class="element item-2">
+                <a href="https://api.whatsapp.com/send?phone=83504018" title="Ir a Whatsapp" target="blank">
+                    <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/whatsapp.svg" class="rounded-circle" alt="...">
+                </a>
+            </div>
+
+            <div class="element item-3">
+                <a href="mailto:marabelytenorio@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail" title="Ir al Correo" target="blank">
+                    <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/5558017a9e629b41437b7815bc573d99540579ae/correoelectronico.svg" class="rounded-circle" alt="...">
+                </a>
+            </div>
+
+            <div class="element item-4">
+                <a href="https://github.com/MarabelyTenorio" title="Ir a Github" target="blank">
+                    <img class="card-img-bottom" src="https://raw.githubusercontent.com/MarabelyTenorio/PortafolioComputacion/2182a491556249d2d8025330ec95cf5d0bfeefb7/github.svg" class="rounded-circle" alt="...">
+                </a>
+            </div>
+
+        </div>
+        <footer>
+            <p>© 2022 Marabely Alvarado</p>
+
+        </footer>
     </section>
+
 
 </body>
 
