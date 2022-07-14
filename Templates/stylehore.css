@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Bebas+Neue&family=Edu+QLD+Beginner:wght@400;700&family=Poppins:wght@200&display=swap');
+* {
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    list-style: decimal;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+.item {
+    float: right;
+    width: 60%;
+}
+
+img {
+    width: 700px;
+    margin: 2%;
+    border: 2px solid #2C5364;
+}
+
+@media (max-width: 700px) {
+    * {
+        width: 100vh;
+    }
+    aside {
+        width: 100%;
+    }
+    .item {
+        width: 100%;
+        justify-content: center;
+    }
+    img {
+        width: 50%;
+        height: 40%;
+    }
+}
